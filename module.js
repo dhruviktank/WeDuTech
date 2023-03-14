@@ -2,16 +2,16 @@ var app = angular.module("myModule", ['ngRoute']);
 app.config(function ($routeProvider) {
     $routeProvider
         .when("/home", {
-            templateUrl: "views/home.html"
+            templateUrl: "home.html"
         })
         .when("/product", {
-            templateUrl: "views/product.html"
+            templateUrl: "product.html"
         })
         .when("/pricing", {
-            templateUrl: "views/pricing.html"
+            templateUrl: "pricing.html"
         })
         .when("/contact", {
-            templateUrl: "views/contact.html"
+            templateUrl: "contact.html"
         })
 });
 app.controller("myController", function ($scope) {
